@@ -50,3 +50,14 @@ ScrollReveal().reveal(".deals__card", {
     ...scrollRevealOption,
     interval: 500,
 });
+
+ScrollReveal().reveal(".about__image img", {
+    ...scrollRevealOption,
+    origin: "right",
+});
+
+ScrollReveal().reveal(".about__card", {
+    duration: 1000,
+    interval: 500,
+    delay: 500,
+});
