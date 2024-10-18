@@ -61,3 +61,7 @@ ScrollReveal().reveal(".about__card", {
     interval: 500,
     delay: 500,
 });
+
+const swiper = new Swiper(".swiper", {
+    loop: true, 
+});
